@@ -1,0 +1,10 @@
+name: sing
+channels:
+  - pytorch
+dependencies:
+  - numpy>=1.15
+  - python>=3.6
+  - pytorch>=0.4.1
+  - requests>=2.19
+  - scipy>=1.1
+  - tqdm>=4.26
