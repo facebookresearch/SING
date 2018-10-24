@@ -146,7 +146,7 @@ We thank the Magenta team for their inspiring work on NSynth.
 
 ## License
 
-For conveniance we have included a copy of the metadata of this dataset
+For conveniance we have included a copy of the metadata of the NSynth dataset
 in this repository. The dataset has been released by Google Inc
 under the Creative Commons Attribution 4.0 International (CC BY 4.0) license.
 
