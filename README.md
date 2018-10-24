@@ -78,12 +78,9 @@ If you already have the NSynth dataset downloaded somewhere, run
         --output PATH_TO_SING_MODEL [--checkpoint PATH_TO_CHECKPOINTS]
 
 `PATH_TO_NSYNTH` is by default set to `data/nsynth-train`.
-The final model will be saved at `PATH_TO_SING_MODEL`. If you want
+The final model will be saved at `PATH_TO_SING_MODEL` (default is `models/sing.th`). If you want
 to save checkpoints after each epoch, or to resume a previously interrupted
 training, use the `--checkpoint` option.
-
-By default, `PATH_TO_NSYNTH` is set to `data` and `PATH_TO_SING_MODEL`
-is set to `models/sing.th`.
 
 ### Generation
 
