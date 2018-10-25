@@ -185,28 +185,6 @@ def make_datasets(dataset, valid_ratio=0.1, test_ratio=0.1, random_seed=42):
             dataset, valid), DatasetSubset(dataset, test)
 
 
-def download_nsynth(folder):
-    """
-    Download the nsynth training set to `folder`.
-    """
-    url = ("http://download.magenta.tensorflow.org/"
-           "datasets/nsynth/nsynth-train.jsonwav.tar.gz")
-    folder.mkdir(exist_ok=True, parents=True)
-    target = folder / "nsynth-train.tar.gz"
-    utils.download_file(target, url, extract=True)
-
-
-def download_nsynth_metadata(folder):
-    """
-    Download the nsynth training set to `folder`.
-    """
-    url = ("http://download.magenta.tensorflow.org/"
-           "datasets/nsynth/nsynth-train.jsonwav.tar.gz")
-    folder.mkdir(exist_ok=True, parents=True)
-    target = folder / "nsynth-train.tar.gz"
-    utils.download_file(target, url, extract=True)
-
-
 def get_metadata_path():
     """
     Get the path to the nsynth-train metadata included with SING.
