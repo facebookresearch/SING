@@ -98,7 +98,7 @@ Alternatively, you can download a pretrained model using
 
 By default, the model will be downloaded under `models/sing.th` but a
 different path can be provided using the `--model` option.
-The pretrained model can be directly download [here](https://s3.amazonaws.com/sing-models/sing.th).
+The pretrained model can be directly download [here](https://ai.honu.io/misc/sing/sing.th).
 
 ### Results reproduction
 

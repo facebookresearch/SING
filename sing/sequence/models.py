@@ -136,6 +136,6 @@ def download_pretrained_model(target):
     """
     Download a pretrained version of SING.
     """
-    url = "https://s3.amazonaws.com/sing-models/5b97a7fce693c9065e80eb87.th"
+    url = "https://ai.honu.io/misc/sing/sing.th"
     sha256 = "eda8a7ce66f1ccf31cdd34a920290d80aabf96584c4d53df866b744f2862dc1c"
     utils.download_file(target, url, sha256=sha256)
