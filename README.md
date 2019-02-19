@@ -47,7 +47,7 @@ although this is not required.
 
 If you want to train SING from scratch, you will need a copy of the NSynth
 dataset [[1]](#ref_nsynth). To download it, you use the following instructions
-(WARNING, NSynth is 30GB so this will take a bit of time):
+(**WARNING**, NSynth is 30GB so this will take a bit of time):
 
     mkdir data && cd data &&\
     wget http://download.magenta.tensorflow.org/datasets/nsynth/nsynth-train.jsonwav.tar.gz &&\
