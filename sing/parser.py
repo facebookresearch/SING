@@ -26,8 +26,7 @@ def get_parser():
         "--data",
         default="data/nsynth-train",
         type=Path,
-        help="path to the dataset, "
-        "should contain a folder called nsynth-train")
+        help="path to the dataset, e.g. .../nsynth-train")
     parser.add_argument(
         "--pad",
         type=int,
